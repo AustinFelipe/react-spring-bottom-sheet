@@ -486,7 +486,7 @@ export const BottomSheet = React.forwardRef<
     down,
     first,
     last,
-    memo = spring.y.getValue() as number,
+    memo = spring.y.get() as number,
     movement: [, _my],
     tap,
     velocity,
